@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2021-09-01
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+The Leibniz University keeps expanding their ML lecture offerings. In the upcoming winter semester I am assisting a new lecture at Leibniz University: [Interpretable Machine Learning](https://www.tnt.uni-hannover.de/en/edu/vorlesungen/iML/).
