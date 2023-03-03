@@ -1,6 +1,25 @@
 ---
 ---
 
+@article{anand2022explainable,
+  title={Explainable Information Retrieval: A Survey},
+  author={Anand, Avishek and Lyu, Lijun and Idahl, Maximilian and Wang, Yumeng and Wallat, Jonas and Zhang, Zijian},
+  journal={arXiv preprint arXiv:2211.02405},
+  year={2022},
+  abstract = "Explainable information retrieval is an emerging research area aiming to make transparent and trustworthy information retrieval systems. Given the increasing use of complex machine learning models in search systems, explainability is essential in building and auditing responsible information retrieval models. This survey fills a vital gap in the otherwise topically diverse literature of explainable information retrieval. It categorizes and discusses recent explainability methods developed for different application domains in information retrieval, providing a common framework and unifying perspectives. In addition, it reflects on the common concern of evaluating explanations and highlights open challenges and opportunities."
+}
+
+@article{muller2021multimodal,
+  title={Multimodal news analytics using measures of cross-modal entity and context consistency},
+  author={M{\"u}ller-Budack, Eric and Theiner, Jonas and Diering, Sebastian and Idahl, Maximilian and Hakimov, Sherzod and Ewerth, Ralph},
+  journal={International Journal of Multimedia Information Retrieval},
+  volume={10},
+  number={2},
+  pages={111--125},
+  year={2021},
+  publisher={Springer}
+}
+
 @inproceedings{idahl-etal-2021-towards,
     title = "Towards Benchmarking the Utility of Explanations for Model Debugging",
     author = "Idahl, Maximilian  and
@@ -16,4 +35,39 @@
     doi = "10.18653/v1/2021.trustnlp-1.8",
     pages = "68--73",
     abstract = "Post-hoc explanation methods are an important class of approaches that help understand the rationale underlying a trained model{'}s decision. But how useful are they for an end-user towards accomplishing a given task? In this vision paper, we argue the need for a benchmark to facilitate evaluations of the utility of post-hoc explanation methods. As a first step to this end, we enumerate desirable properties that such a benchmark should possess for the task of debugging text classifiers. Additionally, we highlight that such a benchmark facilitates not only assessing the effectiveness of explanations but also their efficiency.",
+}
+
+@inproceedings{muller2020multimodal,
+  title={Multimodal analytics for real-world news using measures of cross-modal entity consistency},
+  author={M{\"u}ller-Budack, Eric and Theiner, Jonas and Diering, Sebastian and Idahl, Maximilian and Ewerth, Ralph},
+  booktitle={Proceedings of the 2020 International Conference on Multimedia Retrieval},
+  pages={16--25},
+  year={2020}
+}
+
+@inproceedings{10.1145/3336191.3371779,
+author = {Hube, Christoph and Idahl, Maximilian and Fetahu, Besnik},
+title = {Debiasing Word Embeddings from Sentiment Associations in Names},
+year = {2020},
+isbn = {9781450368223},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3336191.3371779},
+doi = {10.1145/3336191.3371779},
+abstract = {Word embeddings, trained through models like skip-gram, have shown to be prone to capturing the biases from the training corpus, e.g. gender bias. Such biases are unwanted as they spill in downstream tasks, thus, leading to discriminatory behavior.In this work, we address the problem of prior sentiment associated with names in word embeddings where for a given name representation (e.g. "Smith"), a sentiment classifier will categorize it as either positive or negative. We propose DebiasEmb, a skip-gram based word embedding approach that, for a given oracle sentiment classification model, will debias the name representations, such that they cannot be associated with either positive or negative sentiment. Evaluation on standard word embedding benchmarks and a downstream analysis show that our approach is able to maintain a high quality of embeddings and at the same time mitigate sentiment bias in name embeddings.},
+booktitle = {Proceedings of the 13th International Conference on Web Search and Data Mining},
+pages = {259–267},
+numpages = {9},
+keywords = {debiasing, word embeddings, bias},
+location = {Houston, TX, USA},
+series = {WSDM '20}
+}
+
+@inproceedings{idahl2020finding,
+  title={Finding interpretable concept spaces in node embeddings using knowledge bases},
+  author={Idahl, Maximilian and Khosla, Megha and Anand, Avishek},
+  booktitle={Machine Learning and Knowledge Discovery in Databases: International Workshops of ECML PKDD 2019, W{\"u}rzburg, Germany, September 16--20, 2019, Proceedings, Part I},
+  pages={229--240},
+  year={2020},
+  organization={Springer}
 }
